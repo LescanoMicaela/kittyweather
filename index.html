@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Courgette|Damion|Gloria+Hallelujah|Gochi+Hand|Merriweather|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="colorbox.css">
+   
+
+
+</head>
+
+<body>
+    <div class="container" class="rain">
+        <div class="content-fluid" id="top">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-inverse">
+                        <div class="container-fluid" id="forLogo">
+
+                            <div class="logo">
+                                <h4>Kitty</h4><img id="iconCat" src="images/card.png">
+                                <h4>Weather</h4>
+                            </div>
+                            <form>
+
+                                <input type="text" id="mySearch" class="form-control" placeholder="Search for city..">
+
+                                <button type="submit" id="go" class="btn btn-default">Go</button>
+
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="error">
+                    <h1 id="errorMsg">No cities found</h1>
+                    <img id="imgerror" src="images/cat.png">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" id="infoWeather">
+                
+                 <div id="success">
+                       <h1 id="cityName"></h1>
+                     <div class="forFlex">
+                <div class="todayweather">
+              
+                <h3 id="today">Today</h3>
+               
+                    <div id="weatherNow">
+                        <h2 id="temp0"></h2>
+                        <div class="tempIcon">
+
+                            <div id="icon0"> </div>
+                        </div>
+                        <div class="more info">
+                            <div class="maxMin">
+                                <h3 id="tempMax0"></h3>
+                                <h3 id="tempMin0"></h3>
+                            </div>
+                            <h4 id="description0"></h4>
+                            <h4 id="humidity0"></h4>
+                        </div>
+                        </div>
+
+                    </div>
+                    </div>
+                    <div class="futureWeather" id="font">
+                        <div class="group">
+                            <p id="date1"></p>
+                            <div id="weatherNow">
+
+                                <div class="weather1"></div>
+                                <h3 id="temp1"></h3>
+                                <div class="tempIcon">
+
+                                    <div id="icon1"> </div>
+                                </div>
+                                <div class="more info">
+                                    <div class="maxMin">
+                                        <p id="tempMax1"></p>
+                                        <p id="tempMin1"></p>
+                                    </div>
+                                    <p id="description1"></p>
+                                    <p id="humidity1"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <p id="date2"></p>
+                            <div id="weatherNow">
+
+                                <div class="weather2"></div>
+                                <h3 id="temp2"></h3>
+                                <div class="tempIcon">
+
+                                    <div id="icon2"> </div>
+                                </div>
+                                <div class="more info">
+                                    <div class="maxMin">
+                                        <p id="tempMax2"></p>
+                                        <p id="tempMin2"></p>
+                                    </div>
+                                    <p id="description2"></p>
+                                    <p id="humidity2"></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="group">
+                            <p id="date3"></p>
+                            <div id="weatherNow">
+
+                                <div class="weather3"></div>
+                                <h3 id="temp3"></h3>
+                                <div class="tempIcon">
+
+                                    <div id="icon3"> </div>
+                                </div>
+                                <div class="more info">
+                                    <div class="maxMin">
+                                        <p id="tempMax3"></p>
+                                        <p id="tempMin3"></p>
+                                    </div>
+                                    <p id="description3"></p>
+                                    <p id="humidity3"></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="bottom">
+                    <h1 id="sentence">Look for a city, please</h1>
+                    <img id="catBot" src="images/catbottom.png">
+                </div>
+                <div class="bottom2">
+                </div>
+                <div class="weatherQuotes">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+    <script src="colorbox-master/jquery.colorbox-min.js"></script>
+    <script src="colorbox-master/jquery.colorbox.js"></script>
+
+
+</body>
+
+</html>

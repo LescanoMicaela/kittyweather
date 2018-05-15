@@ -1,0 +1,277 @@
+body {
+/*   background-color:#0e0e0e4d;*/
+/*   background-color:#d215634f;*/
+    font-family: 'Pacifico', cursive;
+       color: #080808;
+    background-image: url("images/sky2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom2 {
+    position: fixed;
+    bottom: 0;
+   right: 0;
+}
+#description {
+    text-transform: capitalize;
+    margin: 0;
+}
+.container{
+/*       background-color:#ffffff1c;*/
+    min-height: 630px;
+    padding: 0;
+}
+
+#errorMsg{
+        font-size: 350%;
+    font-weight: 600;
+    color: black;
+}
+#iconCat{
+    width:35%;
+    align-self: center;
+}
+#cityName {
+    font-size: 350%;
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: 600;
+    letter-spacing: 1px;
+  
+    z-index: 765;
+}
+.bottom h1{
+      align-self: flex-end;
+    font-style: italic;
+    color: black;
+    padding-bottom: 1%;
+}
+.bottom{
+        position: fixed;
+ 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    bottom: 0;
+}
+
+#cat{
+    z-index: 33;
+}
+
+#error {
+    margin: 10% 25%;
+    font-family: fantasy;
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.kittyweather{
+    width:100px;
+}
+btn-default {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffffe8;
+ 
+    width: 6%;
+    border: #b74690;
+}
+form {
+    
+        display: flex;
+    width: 80%;
+    align-self: center;
+ 
+}
+#catBot{
+    width: 30%;
+    height:30%
+   
+}
+#weathercat {
+    width:50%;
+    height:100%
+}
+h4{
+
+}
+.logo{
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    text-align: center;
+    color:white;
+}
+#go{
+    color:white;
+    width: 60px;
+    background-color:#0000001f;
+}
+#mySearch {
+     background-color: #0000001f;
+ align-self: center;
+    height: 60px;
+    font-size: 30px;
+    color:white;
+}
+.banner{
+      display:flex;
+    flex-direction: row-reverse;
+}
+#forLogo{
+    display: flex;
+       padding: 2% 2% 0 2%;;
+  
+    border-radius: 10px;
+        
+}
+nav{
+    height: 180%;
+}
+.banner h1{
+        font-size: 110px;
+    
+}
+#top {
+        margin-bottom: 8%;
+}
+
+#temp{
+        font-size: 40px;
+    font-weight: 550;
+    
+ 
+}
+.tempIcon {
+    display: flex;
+  flex-direction: row-reverse;
+    justify-content: center;
+        padding-right: 1%;
+   
+}
+
+
+.navbar-inverse{
+   
+    border: none;
+    
+}
+
+
+/*
+#success{
+       background-image: url(images/card.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    margin: 5% 5%;
+    background-size: contain;
+}
+*/
+
+/*
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+ When the input field gets focus, change its width to 100% 
+input[type=text]:focus {
+    width: 80%;
+}
+*/
+
+#weatherNow {
+        display: flex;
+    justify-content: center;
+}
+
+.maxMin {
+    display: flex;
+}
+
+.futureWeather {
+        display: flex;
+    justify-content:space-around;
+    margin-top: 2%;
+    font-size: 120%;
+}
+
+
+
+.group {
+    display: flex;
+    flex-direction: column-reverse;
+        width: 28%;
+    border-radius: 20px;
+    background-color:#ffffff75;
+}
+
+#icon0, #icon1, #icon2, #icon3 {
+     width:70%;
+}
+#icon0 img, #icon1 img, #icon2 img, #icon3 img{
+    width:100%;
+}
+
+#date2, #date1, #date3 {
+        text-align: center;
+    color: #353333;
+    font-weight: bold;
+    
+}
+
+#today {
+       text-align: center;
+    color: #353333;
+    font-weight: bold;
+    
+}
+
+.pac-icon {
+  width: 0;
+  background-image: none;
+}
+/*
+.pac-item > span:last-child {
+    display: none;
+}*/
+
+#infoWeather {
+   
+   
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar {
+        background-color: #ffffff00;
+    border-radius: 20px;
+}
+
+.todayweather {
+          width: 30%;
+    padding: 0.5%;
+    border-radius: 20px;
+    /* justify-content: center; */
+    background-color: #ffffff94;
+    display: flex;
+    flex-direction: column
+}
+
+.forFlex {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
