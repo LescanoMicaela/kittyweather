@@ -61,9 +61,9 @@ $(document).ready(function () {
 
 
     function callCity(cityinput) {
-        //    $.getJSON("http://api.openweathermap.org/data/2.5/forecast?q=" + cityinput + "&APPID=ae8f488ff6e6f5c775053b377bc54191", function (data) {
+        //    $.getJSON("https://api.openweathermap.org/data/2.5/forecast?q=" + cityinput + "&APPID=ae8f488ff6e6f5c775053b377bc54191", function (data) {
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/forecast?q=" + cityinput + "&APPID=ae8f488ff6e6f5c775053b377bc54191",
+            url: "https://api.openweathermap.org/data/2.5/forecast?q=" + cityinput + "&APPID=ae8f488ff6e6f5c775053b377bc54191",
             dataType: 'json',
 
             success: function (data) {
